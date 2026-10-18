@@ -1,0 +1,31 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: settings
+    label: Website Settings
+    type: file
+    path: content/settings.json
+    fields:
+      - {name: business_email, label: Business Email, type: string}
+      - {name: business_phone, label: Business Phone, type: string}
+      - {name: square_payment_url, label: Square Payment URL, type: string}
+      - {name: service_area, label: Service Area, type: string}
+      - {name: hero_title, label: Homepage Headline, type: string}
+      - {name: hero_description, label: Homepage Description, type: text}
+  - name: gallery
+    label: Before and After Gallery
+    type: file
+    path: content/gallery.json
+    fields:
+      - name: projects
+        label: Completed Projects
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Project Title, type: string}
+          - {name: city, label: City, type: string}
+          - {name: service, label: Service, type: string}
+          - {name: before, label: Before Photo, type: image}
+          - {name: after, label: After Photo, type: image}
+          - {name: description, label: Description, type: text}
