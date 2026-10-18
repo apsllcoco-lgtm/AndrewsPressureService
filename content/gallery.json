@@ -1,3 +1,31 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "title": "Residential driveway",
+      "city": "Oconomowoc, WI",
+      "service": "driveway",
+      "before": "/media/Paul Before/FrontDrivePaul1.jpg",
+      "after": "/media/paul after/FrontDrivePaul2.jpg"
+    },
+    {
+      "title": "Front Door",
+      "city": "Oconomowoc, WI",
+      "before": "/media/Paul Before/DoorwayPaul1.jpg",
+      "after": "/media/paul after/DoorwayPaul2.jpg"
+    },
+    {
+      "title": "Back Patio",
+      "city": "Oconomowoc, WI",
+      "service": "Patio",
+      "before": "/media/Paul Before/Patioconcretepaul1.jpg",
+      "after": "/media/paul after/Patioconcretepaul2.jpg"
+    },
+    {
+      "title": "Back Patio",
+      "city": "Oconomowoc, WI",
+      "service": "Patio",
+      "before": "/media/Paul Before/patioflowercornerpaul1.jpg",
+      "after": "/media/paul after/patioflowercornerpaul2.jpg"
+    }
+  ]
 }
